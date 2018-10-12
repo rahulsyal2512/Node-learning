@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.1.2",
+  "description": "node js",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm",
+    "start": "node server.js",
+    "starts": "nodemon server.js"
+  },
+  "author": "Rahul Syal",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.10",
+    "nodemon": "^1.18.3"
+  }
+}
